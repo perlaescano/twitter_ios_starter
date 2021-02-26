@@ -11,13 +11,11 @@
       "size" : "20x20"
     },
     {
-      "filename" : "TwitterLogo@2x-1.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
-      "filename" : "TwitterLogo@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
@@ -43,7 +41,6 @@
       "size" : "60x60"
     },
     {
-      "filename" : "TwitterLogo.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "20x20"
@@ -59,13 +56,11 @@
       "size" : "29x29"
     },
     {
-      "filename" : "TwitterLogo@2x.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
-      "filename" : "TwitterLogo-1.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "40x40"
