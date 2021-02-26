@@ -1,11 +1,13 @@
 {
   "images" : [
     {
+      "filename" : "twiiter-logo-20@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
+      "filename" : "twiiter-logo-60@2x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"

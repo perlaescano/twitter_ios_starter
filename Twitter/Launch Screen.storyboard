@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="d8b-7e-exJ">
-                                <rect key="frame" x="65" y="316" width="298" height="295.00000000000006"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="d8b-7e-exJ">
+                                <rect key="frame" x="20" y="279" width="388" height="369"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="298" id="5kA-bp-XLZ"/>
                                     <constraint firstAttribute="height" constant="295" id="kf9-YY-niR"/>
