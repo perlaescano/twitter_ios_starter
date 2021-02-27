@@ -25,46 +25,25 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WVi-Mk-AC0">
-                                            <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="BiN-ed-jUe"/>
-                                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="65" id="WdH-eG-7UL"/>
-                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="bMu-Z3-g6Y"/>
-                                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="65" id="jib-z1-tqU"/>
-                                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="k5U-se-JPD"/>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="65" id="wgX-ZM-HDl"/>
-                                            </constraints>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WVi-Mk-AC0">
+                                            <rect key="frame" x="0.0" y="21" width="65" height="65"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIt-P0-NMJ">
-                                            <rect key="frame" x="73" y="55" width="321" height="54"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="54" id="XGa-rV-hLU"/>
-                                            </constraints>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tweet Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIt-P0-NMJ">
+                                            <rect key="frame" x="82" y="39" width="321" height="58"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="John Doe" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pL3-YE-ZBA">
-                                            <rect key="frame" x="73" y="21" width="265" height="22"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="John Doe" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pL3-YE-ZBA">
+                                            <rect key="frame" x="82" y="21" width="265" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <constraints>
-                                        <constraint firstItem="VIt-P0-NMJ" firstAttribute="bottom" secondItem="xm3-8b-3Vo" secondAttribute="bottomMargin" id="418-uY-3gL"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="pL3-YE-ZBA" secondAttribute="trailing" constant="35" id="8Pe-Kd-k1m"/>
-                                        <constraint firstItem="WVi-Mk-AC0" firstAttribute="leading" secondItem="xm3-8b-3Vo" secondAttribute="leading" id="C1q-QY-tQU"/>
-                                        <constraint firstItem="WVi-Mk-AC0" firstAttribute="leading" secondItem="xm3-8b-3Vo" secondAttribute="leading" id="CV3-aJ-GAa"/>
-                                        <constraint firstItem="WVi-Mk-AC0" firstAttribute="leading" secondItem="xm3-8b-3Vo" secondAttribute="leading" id="M3y-jw-r5Z"/>
-                                        <constraint firstItem="pL3-YE-ZBA" firstAttribute="leading" secondItem="WVi-Mk-AC0" secondAttribute="trailing" constant="29" id="OSR-mg-dYw"/>
-                                        <constraint firstItem="pL3-YE-ZBA" firstAttribute="top" secondItem="xm3-8b-3Vo" secondAttribute="topMargin" id="T0R-JS-XK1"/>
-                                        <constraint firstItem="VIt-P0-NMJ" firstAttribute="trailing" secondItem="xm3-8b-3Vo" secondAttribute="trailingMargin" id="afp-lg-K3K"/>
-                                        <constraint firstItem="WVi-Mk-AC0" firstAttribute="top" secondItem="xm3-8b-3Vo" secondAttribute="top" id="qX0-Ws-0Lm"/>
-                                        <constraint firstItem="WVi-Mk-AC0" firstAttribute="top" secondItem="xm3-8b-3Vo" secondAttribute="top" id="vzX-kC-u2x"/>
-                                        <constraint firstItem="VIt-P0-NMJ" firstAttribute="leading" secondItem="WVi-Mk-AC0" secondAttribute="trailing" constant="8" symbolic="YES" id="w7R-Fo-51F"/>
-                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="profileImageView" destination="WVi-Mk-AC0" id="pfv-Lm-l5I"/>
