@@ -36,7 +36,7 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Doe" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pL3-YE-ZBA">
-                                            <rect key="frame" x="93" y="21" width="265" height="22"/>
+                                            <rect key="frame" x="85" y="11" width="273" height="22"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="82" id="Cwf-5K-3Ps"/>
                                                 <constraint firstAttribute="height" constant="22" id="P6Z-fD-m8E"/>
@@ -47,7 +47,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet Content" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIt-P0-NMJ">
-                                            <rect key="frame" x="93" y="43" width="270" height="68"/>
+                                            <rect key="frame" x="93" y="33" width="270" height="68"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="68" id="LUW-jH-B03"/>
                                                 <constraint firstAttribute="width" constant="270" id="aRa-9b-zFN"/>
@@ -94,11 +94,48 @@
                                 <action selector="onLogout:" destination="SML-8t-Tx9" id="wNw-H6-6Db"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Tweet" style="plain" id="8qI-r2-aYL">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FKU-eU-hwc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1266.6666666666667" y="1209.375"/>
+        </scene>
+        <!--Tweet View Controller-->
+        <scene sceneID="itq-Bc-Ybd">
+            <objects>
+                <viewController id="9cU-Lw-fKd" customClass="TweetViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZU0-Xe-fT4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cU2-kw-xxU">
+                                <rect key="frame" x="5" y="88" width="409" height="167"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mqb-Ps-MVZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cU2-kw-xxU" firstAttribute="leading" secondItem="mqb-Ps-MVZ" secondAttribute="leading" id="RGm-td-Utn"/>
+                            <constraint firstItem="cU2-kw-xxU" firstAttribute="top" secondItem="mqb-Ps-MVZ" secondAttribute="top" id="bBR-XN-8bq"/>
+                            <constraint firstItem="mqb-Ps-MVZ" firstAttribute="trailing" secondItem="cU2-kw-xxU" secondAttribute="trailing" id="fmt-pO-rEv"/>
+                            <constraint firstItem="mqb-Ps-MVZ" firstAttribute="trailing" secondItem="cU2-kw-xxU" secondAttribute="trailing" constant="10" id="he1-Tq-v4C"/>
+                            <constraint firstItem="cU2-kw-xxU" firstAttribute="top" secondItem="mqb-Ps-MVZ" secondAttribute="top" id="vFR-Te-VVT"/>
+                            <constraint firstItem="cU2-kw-xxU" firstAttribute="leading" secondItem="mqb-Ps-MVZ" secondAttribute="leading" id="yEw-ax-x2Y"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="WDq-Si-iT1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xhZ-7o-QLn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="402.89855072463769" y="1209.375"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OgA-jn-UBc">
@@ -159,8 +196,29 @@
             </objects>
             <point key="canvasLocation" x="-3042.4000000000001" y="1209.4452773613195"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CxR-tA-kzc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dVS-hM-HVo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="n3e-Bb-Mj2">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9cU-Lw-fKd" kind="relationship" relationship="rootViewController" id="dAw-Jc-sA4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dTW-Wu-yAB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-507.24637681159425" y="1209.375"/>
+        </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
