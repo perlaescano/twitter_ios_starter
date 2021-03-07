@@ -2,7 +2,7 @@
 
 **Twitter** is a basic twitter app to read your tweets.
 
-Time spent: **10** hours spent in total
+Time spent: **20** hours spent in total
 
 
 # Twitter - Part II
@@ -29,7 +29,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/yPaGQBY2GQ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 The following **required** functionality is completed:
 
 - [x] User sees app icon in home screen and styled launch screen. (1pt)
